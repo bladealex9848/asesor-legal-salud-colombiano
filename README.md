@@ -30,8 +30,10 @@ Con este asistente, podrás obtener respuestas a tus preguntas sobre responsabil
 3. Navega al directorio del proyecto: `cd asesor-legal-salud-colombiano`
 4. Instala las dependencias: `pip install -r requirements.txt`
 5. Crea un archivo `.streamlit/secrets.toml` y añade tu ASSISTANT_ID de OpenAI:
+   
    ```
    ASSISTANT_ID = "tu-assistant-id-aqui"
+   OPENAI_API_KEY = "tu-clave-api-aqui"
    ```
 6. Configura tu clave API de OpenAI como variable de entorno o en el archivo `secrets.toml`.
 
